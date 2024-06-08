@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const locationsData = require('./locationsData');
+const countriesData = require('./countriesData');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -16,10 +16,24 @@ app.use((req, res, next) => {
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/locations', (req, res) => {
-  const { query } = req.query;
-  const data = locationsData[query] || [];
-  res.json(data);
+
+app.get('/countries', (req, res) => {
+  const countries = Object.keys(countriesData);
+  res.json(countries);
+});
+
+
+app.get('/cities', (req, res) => {
+  const { country } = req.query;
+  const cities = country ? Object.keys(countriesData[country] || {}) : [];
+  res.json(cities);
+});
+
+
+app.get('/places', (req, res) => {
+  const { country, city } = req.query;
+  const places = (country && city) ? (countriesData[country][city] || []) : [];
+  res.json(places);
 });
 
 app.listen(PORT, () => {
