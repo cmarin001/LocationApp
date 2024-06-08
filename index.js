@@ -6,13 +6,11 @@ const countriesData = require('./countriesData');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
-
-app.use((req, res, next) => {
-  res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
-  res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp');
-  next();
-});
+app.use(cors({
+  origin: '*',
+  methods: 'GET,OPTIONS',
+  allowedHeaders: 'Content-Type'
+}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -39,3 +37,5 @@ app.get('/places', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app;
