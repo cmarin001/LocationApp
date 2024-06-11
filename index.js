@@ -29,7 +29,10 @@ app.get('/countries', (req, res) => {
 app.get('/cities', (req, res) => {
   try {
     const { country } = req.query;
-    const cities = country ? Object.keys(countriesData[country] || {}) : [];
+    if (!country || !countriesData[country]) {
+      return res.status(400).json({ error: 'Country not found' });
+    }
+    const cities = Object.keys(countriesData[country]);
     res.json(cities);
   } catch (error) {
     console.error("Error fetching cities:", error);
@@ -40,7 +43,13 @@ app.get('/cities', (req, res) => {
 app.get('/places', (req, res) => {
   try {
     const { country, city } = req.query;
-    const places = (country && city) ? (countriesData[country][city] || []) : [];
+    if (!country || !countriesData[country]) {
+      return res.status(400).json({ error: 'Country not found' });
+    }
+    if (!city || !countriesData[country][city]) {
+      return res.status(400).json({ error: 'City not found' });
+    }
+    const places = countriesData[country][city];
     res.json(places);
   } catch (error) {
     console.error("Error fetching places:", error);
