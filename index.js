@@ -57,6 +57,24 @@ app.get('/places', (req, res) => {
   }
 });
 
+app.get('/country-places', (req, res) => {
+  try {
+    const { country } = req.query;
+    if (!country || !countriesData[country]) {
+      return res.status(400).json({ error: 'Country not found' });
+    }
+    const placesByCity = {};
+    const cities = Object.keys(countriesData[country]);
+    cities.forEach(city => {
+      placesByCity[city] = countriesData[country][city];
+    });
+    res.json(placesByCity);
+  } catch (error) {
+    console.error("Error fetching places by country:", error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
