@@ -1358,29 +1358,29 @@ const countriesData = {
   Japan: {
     Tokyo: [
       {
-        place_id: "to1",
+        place_id: "tok1",
         display_name: "Shibuya Crossing",
-        image_url: "/images/to1.png",
+        image_url: "/images/tok1.png",
       },
       {
-        place_id: "to2",
+        place_id: "tok2",
         display_name: "Tokyo Tower",
-        image_url: "/images/to2.png",
+        image_url: "/images/tok2.png",
       },
       {
-        place_id: "to3",
+        place_id: "tok3",
         display_name: "Sensō-ji Temple",
-        image_url: "/images/to3.png",
+        image_url: "/images/tok3.png",
       },
       {
-        place_id: "to4",
+        place_id: "tok4",
         display_name: "Tokyo Skytree",
-        image_url: "/images/to4.png",
+        image_url: "/images/tok4.png",
       },
       {
-        place_id: "to5",
+        place_id: "tok5",
         display_name: "Meiji Shrine",
-        image_url: "/images/to5.png",
+        image_url: "/images/tok5.png",
       },
     ],
     Kyoto: [
