@@ -5,36 +5,41 @@ const countriesData = {
         place_id: "ny1",
         display_name: "Central Park",
         image_url: "/images/ny1.png",
-        description: "A large public park in New York City, an urban oasis with numerous attractions.",
-        rating: 4.7,
+        description:
+          "Central Park is a sprawling urban oasis in the heart of New York City. Visitors can enjoy scenic landscapes, cultural landmarks, and recreational activities. Whether you're looking for a peaceful walk, a boat ride on the lake, or a visit to the Central Park Zoo, the park offers something for everyone.",
+        rating: 4.8,
       },
       {
         place_id: "ny2",
         display_name: "Times Square",
         image_url: "/images/ny2.png",
-        description: "A major commercial intersection and tourist destination in New York City.",
-        rating: 4.5,
+        description:
+          "Times Square is the bustling heart of New York City's entertainment district, famous for its bright lights, Broadway theaters, and diverse crowds. Visitors can experience the excitement of live performances, world-class dining, and iconic attractions in this vibrant hub.",
+        rating: 4.7,
       },
       {
         place_id: "ny3",
         display_name: "Statue of Liberty",
         image_url: "/images/ny3.png",
-        description: "An iconic symbol of freedom and democracy, located on Liberty Island.",
-        rating: 4.8,
+        description:
+          "The Statue of Liberty stands as a symbol of freedom and democracy. This iconic monument, located on Liberty Island, offers visitors a chance to explore its rich history, enjoy panoramic views of New York Harbor, and appreciate the significance of this national treasure.",
+        rating: 4.9,
       },
       {
         place_id: "ny4",
         display_name: "Empire State Building",
         image_url: "/images/ny4.png",
-        description: "A famous skyscraper offering panoramic views of New York City.",
+        description:
+          "The Empire State Building is an iconic skyscraper offering breathtaking views of New York City from its observation decks. Visitors can learn about the building's history, take in the city's skyline, and even enjoy interactive exhibits that highlight its architectural significance.",
         rating: 4.6,
       },
       {
         place_id: "ny5",
         display_name: "Brooklyn Bridge",
         image_url: "/images/ny5.png",
-        description: "A historic suspension bridge connecting Manhattan and Brooklyn.",
-        rating: 4.7,
+        description:
+          "The Brooklyn Bridge is a historic engineering marvel connecting Manhattan and Brooklyn. Walking or biking across the bridge provides stunning views of the city skyline, making it a popular spot for both locals and tourists to capture memorable moments.",
+        rating: 4.5,
       },
     ],
     "San Francisco": [
@@ -42,36 +47,41 @@ const countriesData = {
         place_id: "sf1",
         display_name: "Golden Gate Bridge",
         image_url: "/images/sf1.png",
-        description: "A world-renowned suspension bridge connecting San Francisco and Marin County.",
+        description:
+          "The Golden Gate Bridge is an iconic symbol of San Francisco, renowned for its stunning Art Deco design and breathtaking views. Visitors can walk, bike, or drive across the bridge, and explore the nearby parks and vistas for an unforgettable experience.",
         rating: 4.9,
       },
       {
         place_id: "sf2",
         display_name: "Alcatraz Island",
         image_url: "/images/sf2.png",
-        description: "A historic island with a former federal prison, now a popular tourist attraction.",
-        rating: 4.6,
+        description:
+          "Alcatraz Island, once a notorious federal prison, now serves as a fascinating historical site. Visitors can take a ferry to the island, explore the prison cells, and learn about the infamous inmates and daring escape attempts through guided tours and exhibits.",
+        rating: 4.7,
       },
       {
         place_id: "sf3",
         display_name: "Lombard Street",
         image_url: "/images/sf3.png",
-        description: "A famous steep street with eight sharp hairpin turns.",
-        rating: 4.4,
+        description:
+          "Lombard Street, known as the 'crookedest street in the world,' is famous for its steep, winding turns and beautifully landscaped gardens. This iconic San Francisco landmark offers a unique driving and walking experience, with picturesque views of the city.",
+        rating: 4.6,
       },
       {
         place_id: "sf4",
         display_name: "Fisherman's Wharf",
         image_url: "/images/sf4.png",
-        description: "A bustling waterfront area with shops, restaurants, and attractions.",
+        description:
+          "Fisherman's Wharf is a vibrant waterfront district, offering fresh seafood, unique shops, and lively entertainment. Visitors can enjoy boat tours, street performances, and attractions like Pier 39, where sea lions bask in the sun and amuse onlookers.",
         rating: 4.5,
       },
       {
         place_id: "sf5",
         display_name: "Golden Gate Park",
         image_url: "/images/sf5.png",
-        description: "A large urban park with gardens, museums, and recreational facilities.",
-        rating: 4.7,
+        description:
+          "Golden Gate Park is a vast urban park that boasts beautiful gardens, cultural institutions, and recreational facilities. Visitors can explore the Conservatory of Flowers, the de Young Museum, and the Japanese Tea Garden, or simply enjoy the park's natural beauty.",
+        rating: 4.8,
       },
     ],
     "Los Angeles": [
@@ -79,36 +89,41 @@ const countriesData = {
         place_id: "la1",
         display_name: "Hollywood Sign",
         image_url: "/images/la1.png",
-        description: "An iconic landmark and cultural symbol situated on Mount Lee.",
-        rating: 4.6,
+        description:
+          "The Hollywood Sign is an iconic symbol of the entertainment industry, perched high in the Hollywood Hills. Visitors can hike to vantage points for stunning views of the sign and the sprawling cityscape of Los Angeles, making it a must-see landmark.",
+        rating: 4.7,
       },
       {
         place_id: "la2",
         display_name: "Venice Beach",
         image_url: "/images/la2.png",
-        description: "A vibrant beach known for its bohemian spirit and bustling boardwalk.",
-        rating: 4.5,
+        description:
+          "Venice Beach is a lively coastal destination known for its eclectic boardwalk, street performers, and Muscle Beach gym. Visitors can enjoy sunbathing, surfing, and exploring the vibrant arts and culture scene that defines this unique Los Angeles neighborhood.",
+        rating: 4.6,
       },
       {
         place_id: "la3",
         display_name: "Griffith Observatory",
         image_url: "/images/la3.png",
-        description: "An observatory offering stunning views of Los Angeles and the Hollywood Sign.",
-        rating: 4.7,
+        description:
+          "Griffith Observatory offers breathtaking views of Los Angeles and the stars above. Visitors can explore exhibits on astronomy and space, view celestial bodies through telescopes, and enjoy hiking trails in Griffith Park, making it a perfect blend of education and recreation.",
+        rating: 4.8,
       },
       {
         place_id: "la4",
         display_name: "Santa Monica Pier",
         image_url: "/images/la4.png",
-        description: "A historic pier with an amusement park, aquarium, and restaurants.",
-        rating: 4.6,
+        description:
+          "Santa Monica Pier is a beloved landmark featuring an amusement park, aquarium, and vibrant dining options. Visitors can enjoy scenic ocean views, ride the historic carousel, and indulge in classic seaside fun along this bustling California coast destination.",
+        rating: 4.7,
       },
       {
         place_id: "la5",
         display_name: "Universal Studios Hollywood",
         image_url: "/images/la5.png",
-        description: "A film studio and theme park with thrilling rides and shows.",
-        rating: 4.8,
+        description:
+          "Universal Studios Hollywood is a premier film studio and theme park offering thrilling rides, behind-the-scenes tours, and immersive attractions. Visitors can experience the magic of Hollywood movies and TV shows, making it a top entertainment destination.",
+        rating: 4.9,
       },
     ],
     Chicago: [
@@ -116,36 +131,41 @@ const countriesData = {
         place_id: "ch1",
         display_name: "Millennium Park",
         image_url: "/images/ch1.png",
-        description: "A public park featuring modern art, architecture, and concerts.",
-        rating: 4.7,
+        description:
+          "Millennium Park is a vibrant public space in the heart of Chicago, known for its stunning art installations, lush gardens, and cultural events. Visitors can marvel at the iconic Cloud Gate sculpture, enjoy concerts at the Jay Pritzker Pavilion, and relax in the serene Lurie Garden.",
+        rating: 4.8,
       },
       {
         place_id: "ch2",
         display_name: "Navy Pier",
         image_url: "/images/ch2.png",
-        description: "A popular pier with shops, restaurants, and entertainment options.",
-        rating: 4.5,
+        description:
+          "Navy Pier is a bustling waterfront attraction featuring a mix of entertainment, dining, and cultural experiences. Visitors can ride the Ferris wheel, watch live performances, and explore interactive exhibits, all while enjoying stunning views of Lake Michigan.",
+        rating: 4.6,
       },
       {
         place_id: "ch3",
         display_name: "The Art Institute of Chicago",
         image_url: "/images/ch3.png",
-        description: "A renowned art museum with an extensive collection of artworks.",
-        rating: 4.8,
+        description:
+          "The Art Institute of Chicago is one of the world's premier art museums, housing an extensive collection of artworks spanning centuries and cultures. Visitors can admire masterpieces by renowned artists, explore diverse exhibits, and participate in educational programs.",
+        rating: 4.9,
       },
       {
         place_id: "ch4",
         display_name: "Willis Tower",
         image_url: "/images/ch4.png",
-        description: "A skyscraper offering panoramic views of the city from its Skydeck.",
-        rating: 4.6,
+        description:
+          "Willis Tower, formerly known as the Sears Tower, offers breathtaking views from its Skydeck, located 1,353 feet above the ground. Visitors can step out onto The Ledge, a glass balcony extending from the building, for a thrilling perspective of Chicago's skyline.",
+        rating: 4.7,
       },
       {
         place_id: "ch5",
         display_name: "Shedd Aquarium",
         image_url: "/images/ch5.png",
-        description: "A public aquarium with a diverse range of marine life exhibits.",
-        rating: 4.7,
+        description:
+          "Shedd Aquarium is a world-renowned aquatic science facility showcasing a diverse array of marine life. Visitors can explore exhibits featuring sharks, dolphins, and exotic fish, as well as participate in interactive experiences and educational programs.",
+        rating: 4.6,
       },
     ],
     Miami: [
@@ -153,36 +173,41 @@ const countriesData = {
         place_id: "mi1",
         display_name: "South Beach",
         image_url: "/images/mi1.png",
-        description: "A famous beach known for its vibrant nightlife and Art Deco architecture.",
-        rating: 4.7,
+        description:
+          "South Beach is a vibrant neighborhood in Miami Beach, famous for its beautiful sandy shores, Art Deco architecture, and lively nightlife. Visitors can soak up the sun, swim in the turquoise waters, and explore the bustling Ocean Drive filled with restaurants and bars.",
+        rating: 4.8,
       },
       {
         place_id: "mi2",
         display_name: "Vizcaya Museum and Gardens",
         image_url: "/images/mi2.png",
-        description: "A historic estate with beautiful gardens and a grand villa.",
-        rating: 4.6,
+        description:
+          "Vizcaya Museum and Gardens is a historic estate that offers a glimpse into Miami's past with its beautiful European-inspired architecture and lush gardens. Visitors can tour the grand mansion, stroll through the meticulously maintained gardens, and enjoy the serene waterfront views.",
+        rating: 4.7,
       },
       {
         place_id: "mi3",
         display_name: "Miami Seaquarium",
         image_url: "/images/mi3.png",
-        description: "A marine park featuring marine mammal shows and exhibits.",
+        description:
+          "Miami Seaquarium is a marine park that provides exciting encounters with marine life through its exhibits and shows. Visitors can watch dolphins and sea lions perform, learn about conservation efforts, and even swim with some of the park's aquatic residents.",
         rating: 4.5,
       },
       {
         place_id: "mi4",
         display_name: "Wynwood Walls",
         image_url: "/images/mi4.png",
-        description: "An outdoor museum showcasing large-scale works by street artists.",
-        rating: 4.7,
+        description:
+          "Wynwood Walls is an outdoor art gallery featuring large-scale murals by some of the world's best street artists. Visitors can explore the colorful and vibrant artworks that transform the warehouse district into a dynamic cultural hub.",
+        rating: 4.6,
       },
       {
         place_id: "mi5",
         display_name: "Bayside Marketplace",
         image_url: "/images/mi5.png",
-        description: "A waterfront shopping, dining, and entertainment complex.",
-        rating: 4.5,
+        description:
+          "Bayside Marketplace is a bustling waterfront shopping center offering a variety of shops, restaurants, and live entertainment. Visitors can enjoy boat tours, browse unique boutiques, and savor local cuisine while taking in the scenic views of Biscayne Bay.",
+        rating: 4.6,
       },
     ],
     "Las Vegas": [
@@ -190,36 +215,41 @@ const countriesData = {
         place_id: "lv1",
         display_name: "The Strip",
         image_url: "/images/lv1.png",
-        description: "A famous stretch of Las Vegas Boulevard known for its casinos and resorts.",
-        rating: 4.8,
+        description:
+          "The Strip is the vibrant heart of Las Vegas, known for its dazzling lights, luxurious hotels, and world-class entertainment. Visitors can experience the excitement of casinos, shows, and nightlife that make The Strip a top destination for travelers from around the world.",
+        rating: 4.9,
       },
       {
         place_id: "lv2",
         display_name: "Fremont Street Experience",
         image_url: "/images/lv2.png",
-        description: "A pedestrian mall with a light show, live music, and entertainment.",
-        rating: 4.6,
+        description:
+          "Fremont Street Experience is a lively pedestrian mall in downtown Las Vegas, featuring a massive LED canopy, live music, and street performers. Visitors can enjoy the vibrant atmosphere, explore unique shops, and experience the thrill of the SlotZilla zipline.",
+        rating: 4.7,
       },
       {
         place_id: "lv3",
         display_name: "Bellagio Fountains",
         image_url: "/images/lv3.png",
-        description: "A spectacular water fountain show set to music and lights.",
-        rating: 4.7,
+        description:
+          "The Bellagio Fountains are an iconic Las Vegas attraction, offering mesmerizing water shows set to music and lights. Visitors can watch the stunning displays from various vantage points along the Strip, creating memorable moments in the heart of the city.",
+        rating: 4.8,
       },
       {
         place_id: "lv4",
         display_name: "The Venetian",
         image_url: "/images/lv4.png",
-        description: "A luxury resort featuring gondola rides and replicas of Venice landmarks.",
-        rating: 4.6,
+        description:
+          "The Venetian is a luxurious resort and casino that recreates the charm of Venice, Italy, with its canals, gondolas, and stunning architecture. Visitors can enjoy a romantic gondola ride, dine at world-class restaurants, and explore high-end shops in this lavish setting.",
+        rating: 4.9,
       },
       {
         place_id: "lv5",
         display_name: "Hoover Dam",
         image_url: "/images/lv5.png",
-        description: "A concrete arch-gravity dam on the Colorado River, known for its engineering.",
-        rating: 4.8,
+        description:
+          "Hoover Dam is a marvel of modern engineering, offering visitors a chance to learn about its history and significance. Tours provide insights into the dam's construction and operations, while the surrounding area offers breathtaking views of the Colorado River and Lake Mead.",
+        rating: 4.7,
       },
     ],
     "Washington, D.C.": [
@@ -227,36 +257,41 @@ const countriesData = {
         place_id: "dc1",
         display_name: "The White House",
         image_url: "/images/dc1.png",
-        description: "The official residence and workplace of the President of the United States.",
+        description:
+          "The White House is the official residence and workplace of the President of the United States, symbolizing American leadership and history. Visitors can explore its storied past, admire its iconic architecture, and learn about its role in the nation's governance.",
         rating: 4.8,
       },
       {
         place_id: "dc2",
         display_name: "Lincoln Memorial",
         image_url: "/images/dc2.png",
-        description: "A monumental memorial honoring the 16th President of the United States.",
-        rating: 4.7,
+        description:
+          "The Lincoln Memorial honors Abraham Lincoln, the 16th President of the United States, with a majestic statue and inspiring inscriptions. Visitors can reflect on Lincoln's legacy and enjoy panoramic views of the National Mall from this revered monument.",
+        rating: 4.9,
       },
       {
         place_id: "dc3",
         display_name: "Smithsonian National Air and Space Museum",
         image_url: "/images/dc3.png",
-        description: "A museum showcasing aviation and space exploration artifacts.",
-        rating: 4.8,
+        description:
+          "The Smithsonian National Air and Space Museum showcases the history and technology of aviation and space exploration. Visitors can marvel at historic aircraft, spacecraft, and interactive exhibits that inspire curiosity and wonder about the universe.",
+        rating: 4.7,
       },
       {
         place_id: "dc4",
         display_name: "United States Capitol",
         image_url: "/images/dc4.png",
-        description: "The home of the United States Congress and a symbol of American democracy.",
-        rating: 4.7,
+        description:
+          "The United States Capitol is the home of the U.S. Congress and a symbol of the American government. Visitors can tour its historic chambers, learn about the legislative process, and appreciate the stunning architecture and art that adorn this national landmark.",
+        rating: 4.8,
       },
       {
         place_id: "dc5",
         display_name: "National Mall",
         image_url: "/images/dc5.png",
-        description: "A national park in downtown Washington, D.C., featuring iconic monuments.",
-        rating: 4.8,
+        description:
+          "The National Mall is a grand open space in Washington, D.C., lined with iconic monuments, memorials, and museums. Visitors can explore the rich history and culture of the United States, enjoy leisurely walks, and participate in events and activities.",
+        rating: 4.9,
       },
     ],
     Orlando: [
@@ -264,35 +299,40 @@ const countriesData = {
         place_id: "or1",
         display_name: "Walt Disney World",
         image_url: "/images/or1.png",
-        description: "A world-famous theme park resort known for its magical experiences.",
+        description:
+          "Walt Disney World is a magical resort complex offering four theme parks, two water parks, and countless entertainment options. Visitors can immerse themselves in enchanting experiences, meet beloved characters, and create unforgettable memories in this fantasy-filled destination.",
         rating: 4.9,
       },
       {
         place_id: "or2",
         display_name: "Universal Studios Florida",
         image_url: "/images/or2.png",
-        description: "A theme park offering attractions based on popular movies and TV shows.",
+        description:
+          "Universal Studios Florida brings movies and TV shows to life with thrilling rides, interactive attractions, and live entertainment. Visitors can step into their favorite stories, encounter beloved characters, and enjoy a day of action-packed fun and adventure.",
         rating: 4.8,
       },
       {
         place_id: "or3",
         display_name: "SeaWorld Orlando",
         image_url: "/images/or3.png",
-        description: "A marine theme park featuring shows, exhibits, and rides.",
-        rating: 4.6,
+        description:
+          "SeaWorld Orlando offers marine life exhibits, thrilling rides, and engaging shows that educate and entertain. Visitors can learn about ocean conservation, interact with marine animals, and experience the excitement of roller coasters and water attractions.",
+        rating: 4.7,
       },
       {
         place_id: "or4",
         display_name: "Epcot",
         image_url: "/images/or4.png",
-        description: "A theme park dedicated to technological innovation and international culture.",
-        rating: 4.7,
+        description:
+          "Epcot is a unique theme park at Walt Disney World that celebrates human achievement and innovation. Visitors can explore futuristic attractions, experience cultural pavilions from around the world, and enjoy festivals that highlight food, art, and technology.",
+        rating: 4.8,
       },
       {
         place_id: "or5",
         display_name: "Magic Kingdom",
         image_url: "/images/or5.png",
-        description: "A theme park featuring classic Disney attractions and fairy tale experiences.",
+        description:
+          "Magic Kingdom is the most iconic park at Walt Disney World, known for its fairy tale castles, classic attractions, and enchanting parades. Visitors can meet Disney characters, experience beloved rides, and enjoy fireworks that light up the night sky.",
         rating: 4.9,
       },
     ],
@@ -301,36 +341,41 @@ const countriesData = {
         place_id: "bo1",
         display_name: "Freedom Trail",
         image_url: "/images/bo1.png",
-        description: "A 2.5-mile-long path through downtown Boston, showcasing historic sites.",
-        rating: 4.7,
+        description:
+          "The Freedom Trail is a 2.5-mile-long path through downtown Boston that passes by significant historical sites. Visitors can walk the trail to learn about the American Revolution, visit historic landmarks, and immerse themselves in the rich history of Boston.",
+        rating: 4.8,
       },
       {
         place_id: "bo2",
         display_name: "Fenway Park",
         image_url: "/images/bo2.png",
-        description: "The oldest Major League Baseball stadium, home of the Boston Red Sox.",
-        rating: 4.8,
+        description:
+          "Fenway Park is one of the most famous baseball stadiums in the United States, home to the Boston Red Sox. Visitors can tour the historic ballpark, learn about its storied past, and experience the excitement of a live baseball game in this beloved venue.",
+        rating: 4.7,
       },
       {
         place_id: "bo3",
         display_name: "Boston Common",
         image_url: "/images/bo3.png",
-        description: "A historic public park in downtown Boston, the oldest city park in the United States.",
+        description:
+          "Boston Common is the oldest public park in the United States, offering a peaceful green space in the heart of the city. Visitors can enjoy leisurely strolls, picnics, and seasonal activities in this historic park that has been a gathering place for centuries.",
         rating: 4.6,
       },
       {
         place_id: "bo4",
         display_name: "New England Aquarium",
         image_url: "/images/bo4.png",
-        description: "An aquarium with a wide range of marine life exhibits and interactive experiences.",
-        rating: 4.7,
+        description:
+          "The New England Aquarium is a world-renowned marine science institution featuring a diverse array of marine life exhibits. Visitors can explore the central aquarium tank, watch sea lion shows, and learn about ocean conservation efforts through interactive displays.",
+        rating: 4.8,
       },
       {
         place_id: "bo5",
         display_name: "Museum of Fine Arts, Boston",
         image_url: "/images/bo5.png",
-        description: "A museum with a vast collection of artworks from around the world.",
-        rating: 4.8,
+        description:
+          "The Museum of Fine Arts, Boston, is one of the largest art museums in the United States, with a vast collection spanning thousands of years. Visitors can admire works from ancient civilizations to contemporary artists, participate in educational programs, and enjoy special exhibitions.",
+        rating: 4.9,
       },
     ],
     "New Orleans": [
@@ -338,35 +383,40 @@ const countriesData = {
         place_id: "no1",
         display_name: "French Quarter",
         image_url: "/images/no1.png",
-        description: "The oldest neighborhood in New Orleans, known for its vibrant nightlife and historic buildings.",
+        description:
+          "The French Quarter is the oldest neighborhood in New Orleans, known for its vibrant nightlife, historic architecture, and rich cultural heritage. Visitors can explore its narrow streets, enjoy jazz music, and savor the unique flavors of Creole and Cajun cuisine.",
         rating: 4.8,
       },
       {
         place_id: "no2",
         display_name: "Bourbon Street",
         image_url: "/images/no2.png",
-        description: "A famous street in the French Quarter, known for its bars, clubs, and lively atmosphere.",
-        rating: 4.6,
+        description:
+          "Bourbon Street is the heart of New Orleans' nightlife, famous for its lively bars, clubs, and street performances. Visitors can experience the energetic atmosphere, enjoy live music, and participate in the festivities that make Bourbon Street a must-visit destination.",
+        rating: 4.7,
       },
       {
         place_id: "no3",
         display_name: "Jackson Square",
         image_url: "/images/no3.png",
-        description: "A historic park in the French Quarter, known for its vibrant street life and historic buildings.",
-        rating: 4.7,
+        description:
+          "Jackson Square is a historic park in the French Quarter, surrounded by stunning architecture and vibrant street life. Visitors can admire the St. Louis Cathedral, browse local art, and relax in the picturesque surroundings of this central New Orleans landmark.",
+        rating: 4.6,
       },
       {
         place_id: "no4",
         display_name: "St. Louis Cathedral",
         image_url: "/images/no4.png",
-        description: "The oldest cathedral in continuous use in the United States, located in Jackson Square.",
+        description:
+          "St. Louis Cathedral is the oldest continuously active Roman Catholic cathedral in the United States, located in Jackson Square. Visitors can explore its beautiful interior, learn about its history, and appreciate the architectural beauty of this iconic New Orleans landmark.",
         rating: 4.8,
       },
       {
         place_id: "no5",
         display_name: "Garden District",
         image_url: "/images/no5.png",
-        description: "A historic district known for its well-preserved antebellum mansions and beautiful gardens.",
+        description:
+          "The Garden District is a charming neighborhood known for its historic mansions, lush gardens, and oak-lined streets. Visitors can take guided tours, admire the stunning architecture, and enjoy the peaceful ambiance of this picturesque area.",
         rating: 4.7,
       },
     ],
@@ -375,36 +425,41 @@ const countriesData = {
         place_id: "se1",
         display_name: "Space Needle",
         image_url: "/images/se1.png",
-        description: "A futuristic observation tower and iconic symbol of Seattle.",
-        rating: 4.7,
+        description:
+          "The Space Needle is an iconic observation tower offering panoramic views of Seattle and its surrounding landscapes. Visitors can take an elevator ride to the top, dine in the revolving restaurant, and enjoy breathtaking vistas of the city, mountains, and waterways.",
+        rating: 4.8,
       },
       {
         place_id: "se2",
         display_name: "Pike Place Market",
         image_url: "/images/se2.png",
-        description: "A historic public market overlooking the Elliott Bay waterfront.",
-        rating: 4.8,
+        description:
+          "Pike Place Market is a historic public market overlooking Elliott Bay, famous for its fresh seafood, local produce, and unique shops. Visitors can watch the fishmongers throw fish, browse artisan crafts, and savor the diverse culinary offerings in this bustling market.",
+        rating: 4.7,
       },
       {
         place_id: "se3",
         display_name: "Chihuly Garden and Glass",
         image_url: "/images/se3.png",
-        description: "A museum showcasing the glass artworks of Dale Chihuly.",
-        rating: 4.7,
+        description:
+          "Chihuly Garden and Glass showcases the stunning glass artwork of Dale Chihuly. Visitors can explore the vibrant indoor galleries, stroll through the beautifully landscaped gardens, and marvel at the intricate glass sculptures that transform the space into a visual wonderland.",
+        rating: 4.9,
       },
       {
         place_id: "se4",
         display_name: "Museum of Pop Culture",
         image_url: "/images/se4.png",
-        description: "A museum dedicated to contemporary popular culture.",
-        rating: 4.6,
+        description:
+          "The Museum of Pop Culture is dedicated to contemporary popular culture, featuring exhibits on music, film, and video games. Visitors can explore interactive installations, view iconic artifacts, and celebrate the creativity and innovation that define modern pop culture.",
+        rating: 4.8,
       },
       {
         place_id: "se5",
         display_name: "Seattle Aquarium",
         image_url: "/images/se5.png",
-        description: "A public aquarium located on Pier 59 on the Elliott Bay waterfront.",
-        rating: 4.7,
+        description:
+          "The Seattle Aquarium offers a window into the marine life of the Pacific Northwest. Visitors can view exhibits featuring local sea creatures, participate in interactive experiences, and learn about ocean conservation efforts through engaging programs and displays.",
+        rating: 4.6,
       },
     ],
   },
